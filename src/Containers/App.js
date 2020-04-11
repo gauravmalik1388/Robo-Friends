@@ -55,7 +55,8 @@ this.setState({searchfield:event.target.value});
 
 
 
-render () {
+render () 
+{
 const {robots,searchfield} = this.state;
 const filteredRobots = robots.filter(robots =>{
 
